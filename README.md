@@ -11,7 +11,7 @@ Information about the environment:-
 
    1)state space- The state in a frozen lake environment can be simply represented by  (x-coordinate,y-coordinate)
    
-   2) action space - 0: Move left
+   2)action space - 0: Move left
                      1: Move down
                      2: Move right
                      3: Move up
