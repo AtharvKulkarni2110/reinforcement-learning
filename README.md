@@ -63,12 +63,12 @@ Information about the environment:-
         elements in the matrix R, G, B each containing intensity in the range [0,255].
 
           Significance of key direction:
-        Value of this can be any number in the interval [0,3] which basically tend to denote 
+        The value of this can be any number in the interval [0,3] which basically tends to denote 
         the direction the agent is facing at any state.
         * 0 : Right * 1 : Down * 2 : Left * 3 : Up
 
           Significance of key Mission:
-        It contains a string value which represents the goal of the agent.
+        It contains a string value that represents the goal of the agent.
     
  **2) Action space-**
 
@@ -87,6 +87,7 @@ Information about the environment:-
 ![minigrid_sarsa_lambda](https://github.com/user-attachments/assets/c84800a8-87e4-47b5-b5a9-dc3451231ac5)
 4. Q-learning:
 ![minigrid_q_learning](https://github.com/user-attachments/assets/a7a8c447-2b65-437f-a3d3-98c1d874552d)
- 
 
+
+ Note-From graphs, we can observe Q-learning algorithm takes more steps to converge than the sarsa(λ) algorithm if hyperparameters are kept the same, the reason is that it explores the environment more than the sarsa(λ) which always takes greedy actions i.e. always exploits the greedy policy.
 
