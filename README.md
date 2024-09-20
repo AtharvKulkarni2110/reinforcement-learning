@@ -79,13 +79,13 @@ Information about the environment:-
 
 
 # **Graphs**
-1. Monte Carlo:
+##1. Monte Carlo:
 ![minigrid_mc](https://github.com/user-attachments/assets/e944dae1-7537-426d-a573-447919f90fef)
-2. Sarsa:
+##2. Sarsa:
 ![minigrid_sarsa](https://github.com/user-attachments/assets/d2d0fe28-d49d-4672-8d41-c74ef00bfec7)
-3. Sarsa(λ):
+##3. Sarsa(λ):
 ![minigrid_sarsa_lambda](https://github.com/user-attachments/assets/c84800a8-87e4-47b5-b5a9-dc3451231ac5)
-4. Q-learning:
+##4. Q-learning:
 ![minigrid_q_learning](https://github.com/user-attachments/assets/a7a8c447-2b65-437f-a3d3-98c1d874552d)
 
 
