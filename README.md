@@ -1,5 +1,5 @@
 # reinforcement-learning
-This file consists of tasks I have done and what I learned while studying RL. This file includes an Explanation of the environments used in each task, the Graphical results after implementing various algorithms, and the Challenges I faced during implementation.
+This file consists of tasks while studying RL. This file includes an Explanation of the environments used in each task, the Graphical results after implementing various algorithms, and the Challenges I faced during implementation.
 
 
 **Task 1 -Frozen Lake environment using dynamic programming:-**
