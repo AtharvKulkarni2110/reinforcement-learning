@@ -1,0 +1,29 @@
+# Reinforcement Learning Project
+
+This file contains implementations of both model-based and model-free reinforcement learning algorithms on different environments such as Frozen Lake and MiniGrid Empty Space. The goal is to explore dynamic programming and model-free control algorithms in these environments.
+
+## Tasks Covered
+
+### Task 1: Frozen Lake Environment using Dynamic Programming
+
+- **Algorithms**:
+  - Policy Iteration
+  - Value Iteration
+
+- [Environment Documentation](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
+-
+
+  
+### Task 2: Model-Free Control Algorithms in MiniGrid Empty Space
+- **Algorithms**:
+  - Monte Carlo
+  - Sarsa
+  - Sarsa(λ)
+  - Q-Learning
+- [Environment Documentation](https://minigrid.farama.org/environments/minigrid/EmptyEnv/)
+
+
+## Results
+
+- **Frozen Lake**: Dynamic programming algorithms converge quickly on the Frozen Lake environment.
+- **MiniGrid**: From the provided graphs, Sarsa(λ) converges faster than Q-learning due to its balance between exploration and exploitation.
