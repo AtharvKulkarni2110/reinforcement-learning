@@ -1,4 +1,4 @@
-**The following are some of the Python libraries or concepts that are required to be known-**
+The following are some of the Python libraries or concepts that are required to be known-
 libraries-
 
 NumPy
