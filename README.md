@@ -5,8 +5,14 @@ There are mainly 2 types of problems in RL-
 2. model-free RL - In this type, MDP is unknown for the environment.
 
  Before referring main project it's suggested to refer to the other_environments.txt file for a better understanding of different algorithms.
+ 
  frozen lake environment-
+
+ 
 ![policyiteration-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/eae7a6f0-7f9f-42d5-866e-aa2bd228157b)
+
+
+
 minigrid environment-
 
  
