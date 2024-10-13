@@ -1,5 +1,10 @@
 # reinforcement-learning
-This file consists of tasks while studying RL. This file includes an Explanation of the environments used in each task, the Graphical results after implementing various algorithms, and the Challenges I faced during implementation.
+This repository will give deep insights into reinforcement learning. This file consists of various environments and their description.
+There are mainly 2 types of problems in RL-
+1. model-based RL - In this type, the environment is fully observable or MDP is known for the environment(current state fully describes the environment).
+2. model-free RL - In this type, MDP is unknown for the environment.
+
+for 
 
 
 **Task 1 -Frozen Lake environment using dynamic programming:-**
