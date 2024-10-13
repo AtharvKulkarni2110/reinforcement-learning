@@ -6,7 +6,7 @@ There are mainly 2 types of problems in RL-
 The primary goal is to explore dynamic programming and model-free control algorithms in these environments and analyze their performance.
 
 
-### Task 1: Frozen Lake Environment using Dynamic Programming
+###  Frozen Lake Environment using Dynamic Programming
 
 - **Algorithms**:
   - Policy Iteration
@@ -45,7 +45,7 @@ The primary goal is to explore dynamic programming and model-free control algori
 | 0 | otherwise     | 
 
 
-### Task 2: Model-Free Control Algorithms in MiniGrid Empty Space
+###  Model-Free Control Algorithms in MiniGrid Empty Space
 
 - **Algorithms**:
   - Monte Carlo
