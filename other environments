@@ -1,6 +1,10 @@
+Here's a complete and organized `README.md` file based on your request:
+
+---
+
 # Reinforcement Learning Project
 
-This file contains implementations of both model-based and model-free reinforcement learning algorithms on different environments such as Frozen Lake and MiniGrid Empty Space. The goal is to explore dynamic programming and model-free control algorithms in these environments.
+This repository contains implementations of both model-based and model-free reinforcement learning algorithms in various environments such as **Frozen Lake** and **MiniGrid Empty Space**. The primary goal is to explore dynamic programming and model-free control algorithms in these environments and analyze their performance.
 
 ## Tasks Covered
 
@@ -10,20 +14,131 @@ This file contains implementations of both model-based and model-free reinforcem
   - Policy Iteration
   - Value Iteration
 
-- [Environment Documentation](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
--
+- **Environment Documentation**: [Frozen Lake Environment](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
 
-  
+#### **Observation Space**:
+Consider a 4x4 map of the Frozen Lake environment. The observation space is discrete, with 16 states representing different cells of the grid. Each state is labeled with:
+  - **S**: Start (usually at 0)
+  - **F**: Frozen lake (safe to step on)
+  - **H**: Hole (dangerous, episode ends if the agent steps here)
+  - **G**: Goal (successful end of the episode)
+
+By default, the environment looks like this:
+```
+SFFF
+FHFH
+FFFH
+HFFG
+```
+
+Here, each state represents a whole number from 0 to 15. Custom maps can also be defined if needed.
+
+#### **Action Space**:
+There are 4 actions the agent can take:
+- **0**: Move Left
+- **1**: Move Down
+- **2**: Move Right
+- **3**: Move Up
+
+#### **Rewards**:
+- **1**: Reaching the goal
+- **0**: Otherwise
+
 ### Task 2: Model-Free Control Algorithms in MiniGrid Empty Space
+
 - **Algorithms**:
   - Monte Carlo
   - Sarsa
   - Sarsa(λ)
   - Q-Learning
-- [Environment Documentation](https://minigrid.farama.org/environments/minigrid/EmptyEnv/)
 
+- **Environment Documentation**: [MiniGrid Empty Space](https://minigrid.farama.org/environments/minigrid/EmptyEnv/)
+
+#### **Observation Space**:
+The observation space consists of:
+- **Image**: A 7x7 grid centered on the agent, where each grid cell can either represent a part of the environment or the agent itself.
+  - Size: `(7,7,3)`, where `3` refers to the RGB channels of the grid cells.
+  - Each cell encodes different object types (walls, goal, agent, etc.) and the color intensity of the objects.
+
+- **Direction**: A discrete space where:
+  - **0**: Facing Right
+  - **1**: Facing Down
+  - **2**: Facing Left
+  - **3**: Facing Up
+
+- **Mission**: A string describing the agent's goal, e.g., "Get to the green square."
+
+#### **Action Space**:
+The actions the agent can take are:
+- **0**: Turn Left
+- **1**: Turn Right
+- **2**: Move Forward
+
+### Graphs
+
+#### 1. Monte Carlo
+![minigrid_mc](https://github.com/user-attachments/assets/e944dae1-7537-426d-a573-447919f90fef)
+
+#### 2. Sarsa
+![minigrid_sarsa](https://github.com/user-attachments/assets/d2d0fe28-d49d-4672-8d41-c74ef00bfec7)
+
+#### 3. Sarsa(λ)
+![minigrid_sarsa_lambda](https://github.com/user-attachments/assets/c84800a8-87e4-47b5-b5a9-dc3451231ac5)
+
+#### 4. Q-learning
+![minigrid_q_learning](https://github.com/user-attachments/assets/a7a8c447-2b65-437f-a3d3-98c1d874552d)
+
+---
 
 ## Results
 
-- **Frozen Lake**: Dynamic programming algorithms converge quickly on the Frozen Lake environment.
-- **MiniGrid**: From the provided graphs, Sarsa(λ) converges faster than Q-learning due to its balance between exploration and exploitation.
+### **Frozen Lake (Dynamic Programming)**:
+- **Policy Iteration** and **Value Iteration** algorithms both converge relatively quickly, as the environment is simple and the state space is small (4x4 grid with 16 states).
+- These algorithms explore the environment efficiently due to the known model of the environment (model-based RL).
+
+### **MiniGrid Empty Space (Model-Free Control Algorithms)**:
+- From the provided graphs, **Sarsa(λ)** converges faster than **Q-learning** due to its ability to balance exploration and exploitation more effectively.
+- **Q-learning**, while effective, explores the environment more extensively and takes more steps to converge.
+- **Monte Carlo** and **Sarsa** methods both perform well, but Sarsa(λ) shows better convergence under similar hyperparameter settings.
+
+## How to Run
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/reinforcement-learning.git
+    cd reinforcement-learning
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run any of the environment experiments by navigating to the respective folder and executing the script:
+    ```bash
+    python frozen_lake/policy_iteration.py
+    ```
+
+    ```bash
+    python minigrid/monte_carlo.py
+    ```
+
+## Requirements
+
+The necessary dependencies are listed in the `requirements.txt` file, including:
+```
+gymnasium
+gym-minigrid
+numpy
+matplotlib
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+This completes the `README.md` for your project. You can now use it in your repository to provide an overview and instructions for users. Let me know if you'd like to further refine any section!
