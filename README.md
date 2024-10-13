@@ -21,7 +21,7 @@ The primary goal is to explore dynamic programming and model-free control algori
 
 
 
-** 1)Observation Space-**
+1)Observation Space-
 
  Consider a 4x4 map, then env.observation_space=discrete(16)
  here each state represents a whole number till 15.
