@@ -1,10 +1,7 @@
-Here's a complete and organized `README.md` file based on your request:
-
----
 
 # Reinforcement Learning Project
 
-This repository contains implementations of both model-based and model-free reinforcement learning algorithms in various environments such as **Frozen Lake** and **MiniGrid Empty Space**. The primary goal is to explore dynamic programming and model-free control algorithms in these environments and analyze their performance.
+This file contains implementations of both model-based and model-free reinforcement learning algorithms in various environments such as **Frozen Lake** and **MiniGrid Empty Space**. The primary goal is to explore dynamic programming and model-free control algorithms in these environments and analyze their performance.
 
 ## Tasks Covered
 
