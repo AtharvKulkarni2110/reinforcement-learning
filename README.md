@@ -4,7 +4,7 @@ There are mainly 2 types of problems in RL-
 1. model-based RL - In this type, the environment is fully observable or MDP is known for the environment(current state fully describes the environment).
 2. model-free RL - In this type, MDP is unknown for the environment.
 
- Before referring main project its suggested to refer other en
+ Before referring main project it's suggested to refer to other_environments.txt file for better understanding about different algorithms.
 
 
 
@@ -20,5 +20,5 @@ There are mainly 2 types of problems in RL-
 ![minigrid_q_learning](https://github.com/user-attachments/assets/a7a8c447-2b65-437f-a3d3-98c1d874552d)
 
 
- Note-From graphs, we can observe Q-learning algorithm takes more steps to converge than the sarsa(λ) algorithm if hyperparameters are kept the same, the reason is that it explores the environment more than the sarsa(λ) which always takes greedy actions i.e. always exploits the greedy policy.
+
 
