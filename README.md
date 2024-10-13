@@ -4,7 +4,7 @@ There are mainly 2 types of problems in RL-
 1. model-based RL - In this type, the environment is fully observable or MDP is known for the environment(current state fully describes the environment).
 2. model-free RL - In this type, MDP is unknown for the environment.
 
- Before referring main project it's suggested to refer to the other_environments.txt file for a better understanding of different algorithms.
+
  
  frozen lake environment-
 
