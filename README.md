@@ -9,15 +9,18 @@ There are mainly 2 types of problems in RL-
  frozen lake environment-
 
  
-![policyiteration-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/eae7a6f0-7f9f-42d5-866e-aa2bd228157b)
+![valueiteration-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f7d267dc-32ac-4379-aead-29664cef9c5d)
+
 
 
 
 minigrid environment-
 
+
+
+![minigrid](https://github.com/user-attachments/assets/6bfc354c-2b17-4dd7-8919-39b1dbe59303)
+
  
-
-
 
 
 
