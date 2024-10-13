@@ -5,6 +5,9 @@ There are mainly 2 types of problems in RL-
 2. model-free RL - In this type, MDP is unknown for the environment.
 
  Before referring main project it's suggested to refer to other_environments.txt file for better understanding about different algorithms.
+ [frozen lake](https://github.com/user-attachments/assets/96e92eaf-ec27-4326-b3ce-02618214bcdc)
+ 
+
 
 
 
