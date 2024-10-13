@@ -30,7 +30,7 @@ The primary goal is to explore dynamic programming and model-free control algori
  By default mapping, S is at 0 and G is at 15.
 
 2)Action space -
-         
+|          |            |        
 |----------|------------|
 |    0     | Move left  | 
 |    1     | Move down  |
