@@ -13,36 +13,26 @@ This repository contains implementations of both model-based and model-free rein
 - **Algorithms**:
   - Policy Iteration
   - Value Iteration
-
 - **Environment Documentation**: [Frozen Lake Environment](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
 
-#### **Observation Space**:
-Consider a 4x4 map of the Frozen Lake environment. The observation space is discrete, with 16 states representing different grid cells. Each state is labeled with:
-  - **S**: Start (usually at 0)
-  - **F**: Frozen lake (safe to step on)
-  - **H**: Hole (dangerous, the episode ends if the agent steps here)
-  - **G**: Goal (successful end of the episode)
+** 1)Observation Space-**
 
-By default, the environment looks like this:
-```
-SFFF
-FHFH
-FFFH
-HFFG
-```
+ Consider a 4x4 map, then env.observation_space=discrete(16)
+ here each state represents a whole number till 15.
+ Further custom maps can be defined and each state can be labeled as either S (start) or 
+ F(Frozen), H(Hole) or G(Goal).
+ By default mapping, S is at 0 and G is at 15.
 
-Here, each state represents a whole number from 0 to 15. Custom maps can also be defined if needed.
+2)Action space -
+ there are 4 actions possible:
+    0: Move left
+    1: Move down
+    2: Move right
+    3: Move up
 
-#### **Action Space**:
-There are 4 actions the agent can take:
-- **0**: Move Left
-- **1**: Move Down
-- **2**: Move Right
-- **3**: Move Up
-
-#### **Rewards**:
-- **1**: Reaching the goal
-- **0**: Otherwise
+3)Rewards-
+    1 , reaching goal
+    0 , otherwise
 
 ### Task 2: Model-Free Control Algorithms in MiniGrid Empty Space
 
@@ -96,19 +86,3 @@ There are 4 actions the agent can take:
 - **Monte Carlo** and **Sarsa** methods both perform well, but Sarsa(λ) shows better convergence under similar hyperparameter settings.
 
 
-## Requirements
-
-The necessary dependencies are listed in the `requirements.txt` file, including:
-```
-gymnasium
-gym-minigrid
-numpy
-matplotlib
-```
-
----
-
-
-
-
-This completes the `README.md` for your project. You can now use it in your repository to provide an overview and instructions for users. Let me know if you'd like to further refine any section!
