@@ -152,7 +152,8 @@ minigrid environment-
 
 # **Graphs**
 ##1. Monte Carlo:
-![minigrid_mc](https://github.com/user-attachments/assets/e944dae1-7537-426d-a573-447919f90fef)
+![369424897-e944dae1-7537-426d-a573-447919f90fef](https://github.com/user-attachments/assets/26ef8855-27cf-4c6d-b4d1-29abb101626b)
+
 ##2. Sarsa:
 ![minigrid_sarsa](https://github.com/user-attachments/assets/d2d0fe28-d49d-4672-8d41-c74ef00bfec7)
 ##3. Sarsa(λ):
@@ -175,5 +176,6 @@ minigrid environment-
 ### **KuiperBelt Escape (Q-learning)**:
 -Convergence problem with continuous observation space: 
 When we consider continuous observation space (For eg:  2.21 and 2.2134 are different distances in observation space) it results in memory overflow and consequently we get an insufficient Q table for convergence. Thus to reduce our computational load , we discretized this continuous observation space which provided us with only few values for our policy convergence and hence made it more efficient and faster.
+
 -Approach
 Approximation of the continuous environment by breaking it into small, finite chunks, allowing the algorithm to learn effectively without requiring excessive computational resources.
