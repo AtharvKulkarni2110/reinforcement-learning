@@ -109,6 +109,8 @@ minigrid environment-
   
 
   -**Environment Documentation** : https://github.com/jdegregorio/gym-kuiper-escape
+
+  
   **1)Observation Space:**
     Agent sends off n beams of the virtual lidar system.
     observation_space = array(2*n ,1) 
@@ -117,7 +119,10 @@ minigrid environment-
     Collision detection
     -0 if terminated at edge of the screen, or at max radius distance
     -1 if collided with a rock
-    <img width="264" alt="lidar" src="https://github.com/user-attachments/assets/57931408-1fda-4909-a591-12215ed69614">
+
+    
+  <img width="264" alt="lidar" src="https://github.com/user-attachments/assets/57931408-1fda-4909-a591-12215ed69614">
+
 
 
 
