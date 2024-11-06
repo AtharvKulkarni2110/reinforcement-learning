@@ -151,14 +151,13 @@ minigrid environment-
   2)Penalties for Collision
 
 # **Graphs**
-##1. Monte Carlo:
-![369424897-e944dae1-7537-426d-a573-447919f90fef](https://github.com/user-attachments/assets/26ef8855-27cf-4c6d-b4d1-29abb101626b)
-
-##2. Sarsa:
+1. Monte Carlo:
+![369424897-e944dae1-7537-426d-a573-447919f90fef (1)](https://github.com/user-attachments/assets/3fa01022-f16a-43cf-b7bb-4aad4de13be3)
+2. Sarsa:
 ![minigrid_sarsa](https://github.com/user-attachments/assets/d2d0fe28-d49d-4672-8d41-c74ef00bfec7)
-##3. Sarsa(λ):
+3. Sarsa(λ):
 ![minigrid_sarsa_lambda](https://github.com/user-attachments/assets/c84800a8-87e4-47b5-b5a9-dc3451231ac5)
-##4. Q-learning:
+4. Q-learning:
 ![minigrid_q_learning](https://github.com/user-attachments/assets/a7a8c447-2b65-437f-a3d3-98c1d874552d)
 
 ## Results
