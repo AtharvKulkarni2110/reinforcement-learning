@@ -172,4 +172,8 @@ minigrid environment-
 - **Monte Carlo** and **Sarsa** methods both perform well, but Sarsa(λ) shows better convergence under similar hyperparameter settings.
 
 
-
+### **KuiperBelt Escape (Q-learning)**:
+-Convergence problem with continuous observation space: 
+When we consider continuous observation space (For eg:  2.21 and 2.2134 are different distances in observation space) it results in memory overflow and consequently we get an insufficient Q table for convergence. Thus to reduce our computational load , we discretized this continuous observation space which provided us with only few values for our policy convergence and hence made it more efficient and faster.
+-Approach
+Approximation of the continuous environment by breaking it into small, finite chunks, allowing the algorithm to learn effectively without requiring excessive computational resources.
