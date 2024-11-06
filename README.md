@@ -21,7 +21,7 @@ The primary goal is to explore dynamic programming and model-free control algori
 
 
 
-1)Observation Space-
+**1)Observation Space-**
 
  Consider a 4x4 map, then env.observation_space=discrete(16)
  here each state represents a whole number till 15.
@@ -29,7 +29,7 @@ The primary goal is to explore dynamic programming and model-free control algori
  F(Frozen), H(Hole) or G(Goal).
  By default mapping, S is at 0 and G is at 15.
 
-2)Action space -
+**2)Action space -**
 |          |            |        
 |----------|------------|
 |    0     | Move left  | 
@@ -38,7 +38,7 @@ The primary goal is to explore dynamic programming and model-free control algori
 |    3     | Move up    |
 
 
-3)Rewards-
+**3)Rewards-**
 |   |               |
 |---|---------------|
 | 1 | reaching goal | 
@@ -128,17 +128,20 @@ minigrid environment-
 
     
    **2) Action space-**
-    |          |              |        
-    |----------|--------------|
-    |    0     | Don't move   | 
-    |    1     | Up           |
-    |    2     | Right        | 
-    |    3     | Down         |
-    |    4     | Left         | 
+
+   
+  |          |              |        
+  |----------|--------------|
+  |    0     | Don't move   | 
+  |    1     | Up           |
+  |    2     | Right        | 
+  |    3     | Down         |
+  |    4     | Left         | 
+
 
 
  **3)Reward-**
- Rewards:
+
   1)Inversely related to the distance of agent from the center-
     Reward=1/(.65+dist_from_centre) 
   2)Penalties for Collision
