@@ -101,6 +101,9 @@ minigrid environment-
 
   Failure: A reward of 0 is given.
 
+
+  
+
   ### KuiperBelt Escape emvironment using Q-learning
   
   ![1-ezgif com-resize](https://github.com/user-attachments/assets/df35d308-eb91-4565-871d-32c604e288cf)
@@ -144,6 +147,7 @@ minigrid environment-
 
   1)Inversely related to the distance of agent from the center-
     Reward=1/(.65+dist_from_centre) 
+    
   2)Penalties for Collision
 
 # **Graphs**
